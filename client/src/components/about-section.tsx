@@ -31,11 +31,22 @@ const AboutSection = () => {
               between complex data science concepts and practical business applications.
             </p>
             
-            <div className="grid grid-cols-2 gap-6 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div>
-                <h4 className="font-semibold text-primary mb-3">Technical Skills</h4>
+                <h4 className="font-semibold text-primary mb-3">Programming</h4>
                 <ul className="space-y-2 text-gray-300">
                   {SKILLS.technical.map((skill) => (
+                    <li key={skill.name}>
+                      <i className={`${skill.icon} text-primary mr-2`}></i>
+                      {skill.name}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-primary mb-3">Tools & Platforms</h4>
+                <ul className="space-y-2 text-gray-300">
+                  {SKILLS.tools.map((skill) => (
                     <li key={skill.name}>
                       <i className={`${skill.icon} text-primary mr-2`}></i>
                       {skill.name}

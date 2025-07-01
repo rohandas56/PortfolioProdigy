@@ -100,17 +100,69 @@ export const IBM_CERTIFICATIONS = [
   { name: "Statistics 101", date: "Mar 11, 2024" },
 ];
 
+export const EDUCATION = [
+  {
+    id: 1,
+    degree: "MBA in Business Analytics & Data Science",
+    institution: "Bengal Institute of Business Studies - VU",
+    period: "Jul 2023 - June 2025",
+    grade: "82%",
+    status: "In Progress"
+  },
+  {
+    id: 2,
+    degree: "Bachelor of Science (Mathematics)",
+    institution: "Dinabandhu Mahavidyalaya - WBSU",
+    period: "Jul 2018 - Sept 2021",
+    grade: "71%",
+    status: "Completed"
+  }
+];
+
+export const EXPERIENCE = [
+  {
+    id: 1,
+    position: "Business Analyst",
+    company: "Prime Infoserv LLP",
+    location: "Kolkata, India",
+    period: "Jul 2024 – Dec 2024",
+    achievements: [
+      "Collected, processed, and analyzed client data to refine CRM strategies, contributing to a 15% increase in customer engagement",
+      "Provided actionable insights that improved marketing campaign effectiveness by 20%",
+      "Cleaned and structured customer datasets, enabling dashboard creation that identified a 12% rise in repeat purchases"
+    ]
+  }
+];
+
+export const ADDITIONAL_CERTIFICATIONS = [
+  { name: "Advanced Excel with Tableau", date: "May 2024" },
+  { name: "Machine Learning IIT-Kanpur", date: "Jan 2024" },
+  { name: "Statistics 101", date: "Mar 2024" },
+  { name: "Advanced Google Analytics by Google", date: "Jun 2024" }
+];
+
 export const SKILLS = {
   technical: [
     { name: "Python", icon: "fab fa-python" },
     { name: "SQL", icon: "fas fa-database" },
     { name: "Power BI", icon: "fas fa-chart-bar" },
     { name: "Tableau", icon: "fas fa-chart-line" },
+    { name: "R", icon: "fab fa-r-project" },
+    { name: "Excel", icon: "fas fa-file-excel" },
+  ],
+  tools: [
+    { name: "MySQL", icon: "fas fa-database" },
+    { name: "Google Colab", icon: "fab fa-google" },
+    { name: "Jupyter Notebook", icon: "fas fa-book" },
+    { name: "Google Looker Studio", icon: "fas fa-chart-line" },
+    { name: "Streamlit", icon: "fas fa-stream" },
   ],
   expertise: [
-    { name: "Machine Learning", icon: "fas fa-brain" },
-    { name: "Data Analytics", icon: "fas fa-chart-pie" },
+    { name: "Data Mining", icon: "fas fa-search" },
+    { name: "Data Preprocessing", icon: "fas fa-filter" },
+    { name: "Statistical Analysis", icon: "fas fa-calculator" },
     { name: "Data Visualization", icon: "fas fa-eye" },
     { name: "Business Intelligence", icon: "fas fa-cogs" },
+    { name: "Storytelling", icon: "fas fa-book-open" },
   ],
 };
