@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { PERSONAL_INFO } from '@/lib/constants';
-import profileImage1 from '@assets/profile1_1751345851138.jpg';
+import profileImage1 from '@assets/profile_1751346921333.jpg';
 
 const HeroSection = () => {
   return (
