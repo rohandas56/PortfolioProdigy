@@ -4,7 +4,7 @@ import profileImage2 from '@assets/profile1_1751347051047.jpg';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 bg-secondary/50">
+    <section id="about" className="py-20 about-gradient">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>

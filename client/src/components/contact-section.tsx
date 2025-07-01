@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Mail, MapPin, Clock, Github, Award, Linkedin, Twitter } from 'lucide-react';
+import { Mail, MapPin, Clock, Github, Award, Linkedin } from 'lucide-react';
+import { SiKaggle } from 'react-icons/si';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -43,7 +44,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 contact-gradient">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
@@ -135,15 +136,19 @@ const ContactSection = () => {
                     </a>
                   </Button>
                   <Button variant="ghost" size="icon" asChild className="bg-secondary/50 hover:bg-primary">
+                    <a href={PERSONAL_INFO.linkedin} target="_blank" rel="noopener noreferrer">
+                      <Linkedin size={20} />
+                    </a>
+                  </Button>
+                  <Button variant="ghost" size="icon" asChild className="bg-secondary/50 hover:bg-primary">
+                    <a href={PERSONAL_INFO.kaggle} target="_blank" rel="noopener noreferrer">
+                      <SiKaggle size={20} />
+                    </a>
+                  </Button>
+                  <Button variant="ghost" size="icon" asChild className="bg-secondary/50 hover:bg-primary">
                     <a href={PERSONAL_INFO.credly} target="_blank" rel="noopener noreferrer">
                       <Award size={20} />
                     </a>
-                  </Button>
-                  <Button variant="ghost" size="icon" className="bg-secondary/50 hover:bg-primary">
-                    <Linkedin size={20} />
-                  </Button>
-                  <Button variant="ghost" size="icon" className="bg-secondary/50 hover:bg-primary">
-                    <Twitter size={20} />
                   </Button>
                 </div>
               </CardContent>
