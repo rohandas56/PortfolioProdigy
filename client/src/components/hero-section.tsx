@@ -1,3 +1,4 @@
+import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
 import { PERSONAL_INFO } from '@/lib/constants';
 import profileImage1 from '@assets/profile_1751346921333.jpg';
@@ -20,10 +21,10 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-                <a href="#projects">View My Work</a>
+                <Link href="/projects">View My Work</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                <a href="#contact">Get In Touch</a>
+                <Link href="/contact">Get In Touch</Link>
               </Button>
             </div>
           </div>

@@ -10,57 +10,74 @@ export const PERSONAL_INFO = {
   credly: "https://www.credly.com/users/rohan-das.99bc0927/badges",
 };
 
-export const PROJECTS = [
+export const KAGGLE_PROJECTS = [
   {
     id: 1,
     title: "Global Trends in Atmosphere",
     description: "Comprehensive analysis of global atmospheric data patterns and trends using advanced data visualization and statistical modeling techniques.",
     tech: ["Python", "Data Visualization", "Statistical Analysis", "Pandas"],
-    github: "https://github.com/rohandas56/Food_Delivery_time_prediction",
+    github: "https://github.com/rohandas77/Global-Trends-in-Atmosphere",
     kaggle: "https://www.kaggle.com/code/rohandas77/global-trends-in-atmosphere",
     category: "Environmental Analytics",
     gradient: "from-green-400 to-blue-500",
+    icon: "🌍"
   },
   {
     id: 2,
     title: "Cinema Hall Ticket Sales EDA",
     description: "Exploratory data analysis of cinema ticket sales patterns, revenue optimization, and customer behavior insights for entertainment industry.",
     tech: ["Python", "EDA", "Business Intelligence", "Matplotlib"],
-    github: "https://github.com/rohandas56/Iris_data_model",
+    github: "https://github.com/rohandas77/Cinema-Hall-Ticket-Sales-EDA",
     kaggle: "https://www.kaggle.com/code/rohandas77/cinema-hall-ticket-sales-eda",
     category: "Business Analytics",
     gradient: "from-purple-400 to-pink-500",
+    icon: "🎬"
   },
   {
     id: 3,
-    title: "ML & Data Science Survey 2022",
-    description: "Comprehensive analysis of machine learning and data science industry trends, salary insights, and technology adoption patterns.",
-    tech: ["Python", "Survey Analysis", "Data Science", "Seaborn"],
-    github: "https://github.com/rohandas56/Project_2",
-    kaggle: "https://www.kaggle.com/code/rohandas77/ml-and-ds-survey-2022-by-rohan",
-    category: "Industry Research",
-    gradient: "from-orange-400 to-red-500",
-  },
-  {
-    id: 4,
     title: "Fraud Transactions Detection",
     description: "Advanced fraud detection system using machine learning algorithms to identify suspicious financial transactions and prevent losses.",
     tech: ["Python", "Machine Learning", "Fraud Detection", "Classification"],
-    github: "https://github.com/rohandas56/Food_Delivery_time_prediction",
+    github: "https://github.com/rohandas77/Fraud-Transactions-Detection",
     kaggle: "https://www.kaggle.com/code/rohandas77/fraud-transactions-eda-and-model-building",
     category: "Financial Analytics",
     gradient: "from-red-400 to-yellow-500",
+    icon: "🔒"
   },
   {
-    id: 5,
+    id: 4,
     title: "ASL Recognition Deep Learning",
     description: "Deep learning model for American Sign Language recognition using computer vision and neural networks for accessibility applications.",
     tech: ["Python", "Deep Learning", "Computer Vision", "TensorFlow"],
-    github: "https://github.com/rohandas56/Ml-Project",
+    github: "https://github.com/rohandas77/ASL-Recognition-Deep-Learning",
     kaggle: "https://www.kaggle.com/code/rohandas77/asl-recognition-deep-learning-model",
     category: "Computer Vision",
     gradient: "from-blue-400 to-purple-500",
+    icon: "👋"
   },
+];
+
+export const GITHUB_PROJECTS = [
+  {
+    id: 1,
+    title: "Food Delivery Time Prediction",
+    description: "Machine learning model to predict food delivery times using various factors like distance, weather, traffic, and restaurant preparation time to optimize delivery operations.",
+    tech: ["Python", "Machine Learning", "Regression", "Feature Engineering", "Data Analysis"],
+    github: "https://github.com/rohandas56/Food_Delivery_time_prediction",
+    category: "Predictive Analytics",
+    gradient: "from-yellow-400 to-red-500",
+    icon: "🍕"
+  },
+  {
+    id: 2,
+    title: "Iris Data Classification Model",
+    description: "Classic machine learning project implementing various classification algorithms to predict iris flower species based on sepal and petal measurements.",
+    tech: ["Python", "Scikit-learn", "Classification", "Data Visualization", "Model Comparison"],
+    github: "https://github.com/rohandas56/iris_data_model",
+    category: "Machine Learning",
+    gradient: "from-pink-400 to-violet-500",
+    icon: "🌸"
+  }
 ];
 
 export const IBM_CERTIFICATIONS = [

@@ -103,6 +103,14 @@ This is a full-stack portfolio website for Rohan Das, a Business Analytics & Dat
 
 Changelog:
 - July 01, 2025. Initial setup
+- July 01, 2025. Major architectural update:
+  * Converted from single-page to multi-page application with React Router (wouter)
+  * Separated Kaggle and GitHub projects into distinct sections
+  * Removed ML & Data Science Survey 2022 project
+  * Added Food Delivery Time Prediction and Iris Data Model GitHub projects
+  * Implemented unique gradient backgrounds for each section
+  * Added emoji icons as project thumbnails
+  * Updated navigation to support multi-page routing structure
 
 ## User Preferences
 

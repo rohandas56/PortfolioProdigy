@@ -2,18 +2,11 @@ import { ExternalLink, Github, Award, BarChart3, Brain, TrendingUp, Shield, Eye 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { PROJECTS } from '@/lib/constants';
+import { KAGGLE_PROJECTS } from '@/lib/constants';
 
 const ProjectsSection = () => {
-  const getProjectIcon = (category: string) => {
-    switch (category) {
-      case 'Environmental Analytics': return <TrendingUp className="text-white" size={24} />;
-      case 'Business Analytics': return <BarChart3 className="text-white" size={24} />;
-      case 'Industry Research': return <Award className="text-white" size={24} />;
-      case 'Financial Analytics': return <Shield className="text-white" size={24} />;
-      case 'Computer Vision': return <Eye className="text-white" size={24} />;
-      default: return <Brain className="text-white" size={24} />;
-    }
+  const getProjectIcon = (icon: string) => {
+    return <span className="text-3xl">{icon}</span>;
   };
 
   return (
@@ -28,11 +21,11 @@ const ProjectsSection = () => {
         </div>
         
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
-          {PROJECTS.map((project) => (
+          {KAGGLE_PROJECTS.map((project) => (
             <Card key={project.id} className="glassmorphism border-gray-600 card-hover relative overflow-hidden">
               {/* Project Category Thumbnail */}
               <div className={`h-32 bg-gradient-to-r ${project.gradient} flex items-center justify-center relative`}>
-                {getProjectIcon(project.category)}
+                {getProjectIcon(project.icon)}
                 <div className="absolute top-2 right-2">
                   <Badge variant="secondary" className="bg-black/30 text-white border-none">
                     {project.category}
