@@ -1,6 +1,6 @@
 import { MapPin } from 'lucide-react';
 import { PERSONAL_INFO, SKILLS } from '@/lib/constants';
-import profileImage2 from '@assets/Rohan 2_1751345851142.jpg';
+import profileImage2 from '@assets/profile1_1751347051047.jpg';
 
 const AboutSection = () => {
   return (
